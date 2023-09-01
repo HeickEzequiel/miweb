@@ -1,0 +1,30 @@
+#titulo {  /*selector de ID*/
+    color:tomato
+}
+
+p.texto{
+    color:slateblue
+}
+
+p.texto2{
+    color:green
+}
+
+div p {
+    color:aquamarine
+
+}
+
+div h2, div h3{
+    color:blueviolet
+}
+*{ /* selector universal para cambiar todo el texto si no fue definida con otro selector*/
+    font-size: 24px;
+    color:black
+}
+.color{
+    color: rgb(255,215,15);
+}
+.color{
+    border: 5px red inset;
+}

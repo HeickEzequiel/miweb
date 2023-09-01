@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezequiel Alberto Heick</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagina de Ezequiel</h1>
+
+    <p>esta es una pagina de prueba para 
+        <span style="color:blue"> aprender lo basico</span> y
+        lo hago largo para poder usar las etiquetas 
+        <br> span y br!
+    </p>
+
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+    <img src="img/eze.jpg" width="200" heigh="300" alt="">
+    <form action="/formulario" method="post"> 
+        <label for="nombre">Nombre </label>
+        <input value="Roberto" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Sanchez" type="text" id="apellido" name="apellido" placeholder="Apellido"> 
+        <br>
+        <label for="comentario">comentario</label>
+        <br>
+        <textarea name="comentario" id="comentario" placeholder="Ingrese comentario" cols="30" rows="10">este es un valor por defecto</textarea>
+        <br>
+        <input type="submit">
+        <br>
+        <button type="button"> <img src="img/boton.jpg" width="50" height="50" alt=""> Boton Enviar</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+    </form>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+    </ul>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Taza</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Gorra</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Buzo</td>
+                <td>$4000</td>
+            </tr>
+            <tr>
+                <td>Campera</td>
+                <td>$6000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total= $11500</td>
+        </tfoot>
+    
+    </table>
+
+
+
+</body>
+</html>
